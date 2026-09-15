@@ -11,7 +11,6 @@ def predict_churn(customer_input_dict, model_path="models/Telco_xgb_pipeline.job
     
     Args:
         customer_input_dict (dict): A dictionary representing a single customer's data.
-            Example for Telco: {"tenure": 12, "MonthlyCharges": 75.0, ...}
         model_path (str): Path to the saved joblib pipeline artifact.
             
     Returns:
@@ -21,7 +20,6 @@ def predict_churn(customer_input_dict, model_path="models/Telco_xgb_pipeline.job
     
     # Convert input to DataFrame (single row)
     df = pd.DataFrame([customer_input_dict])
-
     
     # Predict
     prob = pipeline.predict_proba(df)[0, 1]
