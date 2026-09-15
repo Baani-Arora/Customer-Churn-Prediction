@@ -9,6 +9,10 @@ An end-to-end Machine Learning pipeline and interactive Streamlit web applicatio
 ## 📊 1. Overview & Business Problem
 Customer acquisition is highly expensive; retaining existing customers is critical for profitability. The goal of this project is to analyze historical customer data, identify the key drivers behind why customers leave, and deploy a predictive Machine Learning model that can flag "High Risk" customers so the business can intervene (e.g., offering discounts or dedicated support) before they cancel.
 
+### Dataset Sources
+- **Telco Customer Churn:** [Kaggle Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+- **E-Commerce Customer Churn:** [Kaggle Dataset](https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction)
+
 ---
 
 ## 📈 2. Analysis of Factors Influencing Churn (EDA)
